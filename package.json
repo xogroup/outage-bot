@@ -1,0 +1,32 @@
+{
+  "name": "outage-bot",
+  "version": "1.4.2",
+  "description": "A slackbot to quickly inform the relevant people when an outage occurs",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.xogrp.com:LocalPartners/outage-bot.git"
+  },
+  "keywords": [
+    "slackbot"
+  ],
+  "author": "XO Group Team",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.x.x",
+    "acorn": "4.0.11",
+    "bluebird": "3.x.x",
+    "botkit": "0.5.2",
+    "botkit-storage-dynamodb": "0.0.4",
+    "googleapis": "16.x.x",
+    "officegen": "0.x.x"
+  },
+  "devDependencies": {
+    "eslint": "3.x.x",
+    "eslint-plugin-xogroup": "1.x.x"
+  }
+}

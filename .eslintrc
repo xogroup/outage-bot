@@ -1,0 +1,9 @@
+{
+  "plugins" : ["xogroup"],
+  "extends" : ["plugin:xogroup/hapijs"],
+  "rules"   : {
+      "func-style": 0,
+      "prefer-const": 1,
+      "prefer-template": 1
+  }
+}
